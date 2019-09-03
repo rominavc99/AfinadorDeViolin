@@ -3,17 +3,24 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 img{
-    height: 615px;
-    width: 368px;
+    height: 600px;
+    width: 400px;
     bottom: 0%;
     position: absolute;
-    top: 22%;
-    left: 37%;
+    top: 50%;
+    left: 50%;
+    margin-top: -300px;
+    margin-left: -200px;
 }
 
 .title{
     font-size: 80px;
    
+}
+
+.main{
+    display: flex;
+    justify-content: center;
 }
 
 .boton1, .boton2, .boton3, .boton4{
@@ -28,6 +35,7 @@ img{
     background-color: rgb(54, 147, 209);
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
   
 }
 

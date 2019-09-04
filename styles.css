@@ -5,7 +5,9 @@ body{
     width: 100%;
 }
 img{
-    height:600px;
+
+    height: 600px;
+
     width: 400px;
     bottom: 0%;
     position: absolute;
@@ -13,7 +15,6 @@ img{
     left: 50%;
     margin-top: -300px;
     margin-left: -200px;
-  
 }
 
 .title{
@@ -22,6 +23,7 @@ img{
 }
 
 .main{
+
     background-color: yellow;
 
     height:600px;
@@ -32,6 +34,10 @@ img{
     left: 50%;
     margin-top: -300px;
     margin-left: -200px;
+
+    display: flex;
+    justify-content: center;
+
 }
 
 .boton1, .boton2, .boton3, .boton4{
@@ -46,7 +52,12 @@ img{
     background-color: rgb(54, 147, 209);
     justify-content: center;
     align-items: center;
+
     position: relative;
+
+
+    border-radius: 10px;
+  
 
 }
 

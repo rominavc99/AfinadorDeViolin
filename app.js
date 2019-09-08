@@ -1,16 +1,14 @@
-const buttons = document.querySelectorAll('button');
+const buttons = document.querySelectorAll('button'); //agarra todos los elementos que sean button
 
 
-const playnote = event=> 
+const playnote = event=> //recibe un parametro llamado event
 
 
 {
-    const button = event.target;
-    const note = button.dataset.note;
+    const button = event.target; //recibe parametro en la funcion
+    const note = button.dataset.note; 
     const audioId = `audio${note}`;
     
-
-    //console.log(audioId);
     const audio= document.getElementById(audioId);
     console.log(audio);
     audio.pause();
@@ -27,8 +25,6 @@ buttons.forEach
 
 const keyNoteDown = event =>
 {
-
-    //console.log(event);
     const key= event.key;
     console.log(key);
     const button= document.querySelector(`button[data-key="${key}"]`)
